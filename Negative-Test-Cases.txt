@@ -1,0 +1,57 @@
+Below are the End to End negative test cases 
+
+Negative Test Cases on Login 
+1) Verify the Incorrect username and incorrect password Can't Login 
+2) Verify the Incorrect username and incorrect password Can't Login
+3) Verify valid username and empty password Can't Login
+4) Verify empty username and valid password Can't Login
+5) Verify some password(those can be a registered/unregistered) Can't Login
+6) Verify case changed username /password Can't Login
+7) Verify registered user's login id and password Can't Login
+8) Verify to unverified Email address Can't Login
+9) Verify to enter disable(Blocked) email address Can't Login
+10) Verify enter wrong username in email id of Forgot password field can't reset the password
+
+
+Negative Test cases on POP
+1) Verify user click on bag option from drop-down and navigate on other window and again back check bag page is opened
+2) Verify user clicking on focused product area (below photo) will not lead to PDP until he click on product
+3) Verify user not able to give rating from POP
+4) Verify after clicking on Add to cart button from POP, user navigates to PDP or POP
+5) Verify if user turn off the internet and click on Add to cart button
+6) Verify drop down is getting overlap on below products or not while user hover on "ADD TO REQUISITION LIST"/"ADD TO WISH LIST" drop down
+
+Negative Testing Scenarios on PDP 
+
+1) Check whether user able to enter char/symbols in the Quantity field 
+2) Check whether user able to enter how much number in the Quantity field 
+3) Check whether if user add X Quantity and click on cart and delete the quantity and check whether it showing the same quantity in the PDP page or not
+4) Remove items from the cart and Proceed to checkout
+5) Click on add to cart button in the PDP and do maximize minimize to the browser
+6) Add item and apply coupons then remove items from the cart and Proceed to checkout
+7) If user add the product in the cart and close the site, check whether it remains in his account or not
+8) Select quantity in the PDP and click 4-5 times continuously on Add to cart button check whether its showing correct count on cart
+9) Check whether how many time "You added Push It Messenger Bag to your " message is displaying if user click  click 4-5 times continuously on Add to cart button
+10) Turn off your internet connection and click on add to cart button
+11) Turn off your internet connection and click on proceed to checkout button
+12) Check whether when you add 0 before quantity in the proceed to checkout popup is showing update button or not
+13) Click on proceed to checkout button and again click on browser back button check whether user gets on PDP or Homefeed
+14) Add Quantity (100) and make sure error is showing and than add 20 quantity 5 times and check whether its showing error or not 
+15) Verify if user click on card and popup open after user clicking on anywhere in website its getting disappear or not  
+
+Negative Testing Scenarios on shipping Address
+1) Verify that not filling the mandatory fields and clicking the next button will lead to a validation error
+2) Verify the Incorrect Zip/Postal Code will lead to a validation error
+3) Verify user able to enter symbols/chart on Phone Number field
+4) Verify user enter random promo code is applying in Apply Discount Code
+5) Verify user use expired promo code is applying in Apply Discount Code
+6) Check whether how many chart user can enter in Apply Discount Code field
+7) Verify user enter random promo code is applying in Apply Gift Card 
+8) Verify user use expired promo code is applying in Apply Gift Card 
+9) Check whether how many chart user can enter in Apply Gift Card 
+
+Bugs:
+1) In PDP, user able to enter Char 'e' in the Quantity field 
+3) In PDP, only 'Add To:' string is showing while user hover on "ADD TO WISH LIST" drop down 
+2) In PDP, "ADD TO REQUISITION LIST" drop down (Downward arrow) remains sticky if user click on it 2 times 
+4) In shipping address, user able to enter chart in Phone Number field
